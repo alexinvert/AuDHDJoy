@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html {
+        scroll-behavior: smooth;
+        scroll-padding: 1rem;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -17,6 +22,7 @@ body {
 h1, h2, p {
   font-family: 'Alexandria', sans-serif;
   margin: 0;
+  color: #0e1111;
 }
 
 h1 {
@@ -35,6 +41,35 @@ p {
   font-weight: 300;
   font-size: 1.1rem;
   line-height: 1.2;
+}
+
+
+ul{
+  margin-top: 1em;
+  margin-left:1.5em;
+
+}
+
+li{
+font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding-bottom: 0.5em;
+  font-family: 'Alexandria', sans-serif;
+
+}
+
+hr.rounded {
+  border-top: 3px solid #FFCA4C;
+  border-radius: 9px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.colored-bars a{
+  color: #0e1111;
+/*    text-decoration: none;*/
+
 }
 
 
@@ -290,9 +325,9 @@ border-bottom-left-radius: 7px;
 .contactmebutton{
 
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 50%;
-  margin: 0 auto;
+  margin-left:3em;
   padding-bottom: 40px;
 }
 
@@ -356,18 +391,18 @@ border-bottom-left-radius: 7px;
   border-radius: 5px;
   display: flex;
   justify-content: flex-end;
-  background-image: url("hel_chair.jpg");
+  background-image: url("hel-profile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.image-placeholder-footer {
-  width: 80%;
-  height: 200px;
+.image-placeholder-about {
+  width: 83%;
+  height: 580px;
   border-radius: 5px;
   display: flex;
   justify-content: flex-end;
-  background-image: url("hel-avatar.jpeg");
+  background-image: url("hel-profile2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -401,6 +436,10 @@ border-bottom-left-radius: 7px;
   padding:5px;
   width: 30%;
   border-radius: 5px;
+}
+
+.standout h2{
+  padding-left:0.3em;
 }
 
 
@@ -609,6 +648,12 @@ border-bottom-left-radius: 7px;
   
 }
 
+
+.column-about{
+  padding-bottom: 0;
+
+}
+
 .testomonial-column{
   padding-top:0;
   padding-bottom: 0;
@@ -620,7 +665,9 @@ border-bottom-left-radius: 7px;
 }
 
 
-
+.hide-mobile{
+  display: none;
+}
 
 
 .contactmebutton{
@@ -628,6 +675,12 @@ border-bottom-left-radius: 7px;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 40px;
+  justify-content: center;
+
+}
+
+.contact-button{
+  width: 80%;
 }
 
 }
