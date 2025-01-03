@@ -73,7 +73,6 @@ hr.rounded {
 }
 
 
-
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -119,9 +118,6 @@ flex-wrap: wrap;
 
 }
 
-.nothinghere{
-  
-}
 
 .image-card h2 {
   font-size: 1.5rem;
